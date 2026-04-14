@@ -44,7 +44,7 @@ Windows 內部版本：10.0.26200.8037
 步驟 1：查看 Windows 桌面的檔案
 ls /mnt/c/Users/teacher/Desktop/ | head -10
 
-u306@U19:/mnt/c/Windows/system32$ ls /mnt/c/Users/teacher/Desktop/ | head -10
+u306@U27:/mnt/c/Windows/system32$ ls /mnt/c/Users/teacher/Desktop/ | head -10
 114-2_BigDataCC
 Anaconda Navigator.lnk
 Android Studio.lnk
@@ -72,7 +72,7 @@ echo "我的學號是 C112181154，這個檔案從 WSL 建立" > /mnt/c/Users/te
 步驟 2：在 WSL 中確認檔案已建立
 cat /mnt/c/Users/teacher/Desktop/wsl_hello.txt
 
-u306@U19:/mnt/c/Windows/system32$ cat /mnt/c/Users/teacher/Desktop/wsl_hello.txt
+u306@U27:/mnt/c/Windows/system32$ cat /mnt/c/Users/teacher/Desktop/wsl_hello.txt
 我的學號是 C112181154，這個檔案從 WSL 建立
 
 步驟 3：從 WSL 打開 Windows 檔案總管查看家目錄
