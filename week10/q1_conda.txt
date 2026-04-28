@@ -174,7 +174,7 @@ lcms2                      2.16             hb4a4139_0
 conda env export > week10/environment.yml
 cat week10/environment.yml
 （貼上 environment.yml 完整內容）
-name: '[C112181181]_w10'
+name: '[C112181154]_w10'
 channels:
   - defaults
 dependencies:
